@@ -1,2 +1,2 @@
-# Bisandong-Church-BBS-Guideline
-Guideline of BBS@Bisandong Church
+# Bisandong Church Studio Guideline
+비산동교회 방송실 가이드라인입니다. 

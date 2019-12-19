@@ -1,0 +1,20 @@
+---
+title: 공지사항
+---
+
+<p>딱히 공지라고 할 것이 없지만, 그래도 기본 템플릿에 있으므로 남겨두었습니다. </p>
+
+<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Update Change Log</a></p>
+
+<div class="changelog">
+	{% for change in site.posts %}
+		<div class="changelog-item">
+			<h3>{{ change.title }}</h3>
+			<p><span class="date">{{ change.date | date: "%B %d, %Y" }}</span> <span class="badge {{ change.type }}">{{ change.type }}</span></p>
+
+			{{ change.content }}
+
+			<p class="editor-link"><a href="cloudcannon:collections/{{ change.path }}" class="btn"><strong>&#9998;</strong> Update Entry</a></p>
+		</div>
+	{% endfor %}
+</div>
