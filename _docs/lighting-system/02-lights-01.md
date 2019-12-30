@@ -1,5 +1,5 @@
 ---
-title: 조명장비 - 강단
+title: 조명 장비 - 강단
 category: 조명 시스템
 order: 2
 ---

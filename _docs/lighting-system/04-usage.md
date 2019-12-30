@@ -1,5 +1,5 @@
 ---
-title: 조명장비 - 조작법
+title: 조명 장비 - 조작법
 category: 조명 시스템
 order: 4
 ---
